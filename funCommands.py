@@ -21,7 +21,7 @@ class funCommands(commands.Cog):
             "Daniel", 
             "Jaimin",
             "James",
-            "Jason"
+            "Jason",
             "Ross",
             "Scott", 
             "Tom", 
@@ -41,3 +41,5 @@ class funCommands(commands.Cog):
     @commands.command(name="jordan", help="Jordan's catchphrase")
     async def jordan(self, ctx):
         await ctx.send("***that's cringe***")
+
+    
